@@ -16,7 +16,7 @@ float_sum:
     # Add the single-precision floats in fa0 and fa1, store result in fa0
 
 	la fa0, number1
-	la fe1, number2
+	la fa1, number2
 	
 	fadd.s  fa0, fa0, fa1
 
